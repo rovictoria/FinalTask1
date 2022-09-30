@@ -27,6 +27,8 @@ string[] ElementsLengthThreeAndLessArray(string[] array)
     else return newArray;
 }
 
+//Для наглядности решила вывести сразу все варианты:
+ 
 string[] first = new string[] { "hello", "2", "world", ":-)" };
 PrintArray(first);
 Console.Write($"Result: ");
