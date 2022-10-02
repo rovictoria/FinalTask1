@@ -11,15 +11,15 @@
 
 string[] ElementsLengthThreeAndLessArray(string[] array)
 {
-    int size = 0;
-    string[] newArray = new string[size];
+    int k = 0;
+    string[] newArray = new string[0];
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
         {
             Array.Resize(ref newArray, newArray.Length + 1);
-            newArray[size] = array[i];
-            size++;
+            newArray[k] = array[i];
+            k++;
         }
     }
     string[] emptyResult = new string[] {"there are no such values", "try again"};
